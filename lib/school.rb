@@ -9,7 +9,7 @@ def initialize(school_name)
 end
 
 def add_student(student, grade_level)
-  
+  @roster[grade_level] << student 
 end
 
 end
