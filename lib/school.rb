@@ -1,5 +1,4 @@
 class School 
-attr_reader :school_name, :grade 
 
 
 def initialize(school_name)
